@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>rrg.kml</name>
+	<Schema name="schema0" id="schema0">
+		<SimpleField type="string" name="Description"></SimpleField>
+		<SimpleField type="string" name="pdfmaps_photos"><displayName>Photos</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="style1">
+		<IconStyle>
+			<Icon>
+				<href>http://download.avenza.com/images/pdfmaps_icons/pin-red-inground.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="style0">
+		<IconStyle>
+			<color>7f0099ff</color>
+			<Icon>
+				<href>http://download.avenza.com/images/pdfmaps_icons/pin-red-inground.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0099ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f0099ff</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Layer</name>
+		<styleUrl>#style0</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#schema0">
+			</SchemaData>
+		</ExtendedData>
+		<Placemark>
+			<name>Placemark 1</name>
+			<TimeStamp><when>2018-10-13T11:53:50-04:00</when>
+</TimeStamp>
+			<styleUrl>#style1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#schema0">
+					<SimpleData name="Description">Overhang</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-83.57473641406131,37.8363762782793,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Placemark 2</name>
+			<TimeStamp><when>2018-10-13T12:18:48-04:00</when>
+</TimeStamp>
+			<styleUrl>#style1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#schema0">
+					<SimpleData name="Description">Copperas Creek Falls</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-83.57135921030449,37.8413017635765,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

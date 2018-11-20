@@ -1,1 +1,1 @@
-![Copperas Falls and cliff areas nearby](CopperasFallsCliff.jpg)
+![Copperas Falls and cliff areas nearby](rrg/Elevation/CopperasFallsCliff.jpg)

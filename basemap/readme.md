@@ -13,3 +13,7 @@ Approaching the falls on Copperas Creek is deceptive -- you can hear it before y
 Coming a little closer, its height is more apparent.
 
 ![Near the top of the rise, most of the falls is in view](nextphoto.jpg)
+
+The falls pours over a narrow area of the rock shelf, but the shelf itself creates a rock shelter which curves around almost a third of the shallow plunge pool. The pool area is sandy, and sand and rock cover the slope up under the rock shelf.
+
+![]

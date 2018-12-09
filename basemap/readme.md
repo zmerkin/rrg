@@ -8,7 +8,7 @@ Copperas Creek, near Sky Bridge Rd. (rt. 715)
 
 Approaching the falls on Copperas Creek is deceptive -- you can hear it before you can see it. The creek turns to the right while the trail goes to the left, up a small rise. There in the distance, through the rhododendron leaves, you can see the falls pouring over the rocky edge, but you can't see how tall it is.
 
-![First approach to Copperas Falls](https://www.flickr.com/photos/145643948@N07/46198287182)
+![First approach to Copperas Falls](C:\zrmGIS\rrg\photos\DSC01107.JPG)
 
 Coming a little closer, its height is more apparent.
 

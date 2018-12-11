@@ -30,5 +30,5 @@ You also can see a bit of the landscape around the top of the falls.
 
 This picture gives another view of the overhang, to the left of the falls.
 
-![Left side of rock shelter](..\photos\DSC01134.JPG)
+![Left side of rock shelter](..\photos\DSC01142.JPG)
 

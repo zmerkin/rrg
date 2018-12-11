@@ -26,9 +26,9 @@ On the right when facing the falls is a steep hill made of material which has fa
 
 You also can see a bit of the landscape around the top of the falls.
 
-![Closeup of the Lip of the Falls](..\photos\DSC01134.JPG)  
-
-This picture gives another view of the overhang, to the left of the falls.
+![Closeup of the Lip of the Falls](..\photos\DSC01134.JPG)   
+  
+The following picture gives another view of the overhang, to the left of the falls.
 
 ![Left side of rock shelter](..\photos\DSC01142.JPG)
 

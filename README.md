@@ -2,8 +2,6 @@
 ## A project that explores Copperas Creek Waterfall
 ### in Red River Gorge National Geological Area    
 
-### Where it is
-
 ![Located in the Red River Gorge, Kentucky](basemap/locationmap3.jpg)
 
 (created in ArcGIS Pro)

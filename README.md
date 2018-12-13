@@ -1,11 +1,11 @@
 # rrg
-Red River Gorge National Geological Area
 
 ## A project that explores Copperas Creek Waterfall
+in Red River Gorge National Geological Area    
 
 ### Locator map
 
-![Red River Gorge, Kentucky](https://tastyfreeze.github.io/rrg/images/rrg_orange.png)
+![Located in the Red River Gorge, Kentucky](basemap/locationmap3.jpg)
 
 *(Source: lab 9)*
 

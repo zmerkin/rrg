@@ -8,22 +8,22 @@
 
 - [Table of Contents](#table-of-contents)
     - [Introduction](#Introduction)
-    - [Natural Features](##Natural_Features)
-    - [Heritage Features](#Heritage_Features)
+        - [Natural Features](##Natural-Features)
+        - [Heritage Features](#Heritage-Features)
     - [Building a web page](#building-a-web-page)
 
 ### Introduction 
 
 This is a project for University of Kentucky, Geography 409, fall 2018. Using ArcGIS Pro, Python programming, Markdown language, and Visual Studio Code as tools, our task was to explore one or more geologic features in Red River Gorge, and document our analyses. A variety of data was accessed and analyzed; we made use in particular of the high quality LIDAR data made available through the Commonwealth of Kentucky's Elevation Data & Aerial Photography Program [KyFromAbove](http://kyfromabove.ky.gov/)    
 
-### Natural Features
+#### Natural Features
 
 The Red River Gorge has numerous natural features of interest, including many streams feeding the Red River, with captivating waterfalls and plunge pools. There are many rock arches and rock shelters or overhangs. A rich diversity of plant life fills the many different microclimates and habitat niches in the gorge.
 
 ![Natural Bridge Arch](https://www.fhwa.dot.gov/byways/Uploads/asset_files/000/003/801/Natural_Arch_m.jpg "Beneath Natural Bridge")    
 Source: Federal Highway Administration, Red River Gorge Scenic Byway [website](https://www.fhwa.dot.gov/byways/byways/2482/photos/all)
 
-### Heritage Features
+#### Heritage Features
 
 The Red River Gorge has both archaeological and historical features within it. Rock shelters were used by prehistoric people, and, if undisturbed, may contain clues to their culture. Camping, digging, and firebuilding are prohibited in rock shelters in the Gorge and the rest of the Daniel Boone National Forest. Gladie Historic Site features a reconstructed cabin from the late 1800s, interpreting aspects of life in that era.
 

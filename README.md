@@ -37,8 +37,10 @@ The Red River Gorge has both archaeological and historical features within it. R
 Source: Daniel Boone National Forest [website](https://www.fs.usda.gov/detail/dbnf/specialplaces/?cid=fsbdev3_032543)
 
 ### Explore Copperas Creek Falls    
-By following the links here, you can access the web pages which are the final products of this project. The first link will take you to a field report which describes the study site, along with photos.
-[Study Site](https://zmerkin.github.io/rrg/Explore/)
+By following the links here, you can access the web pages which are the final products of this project. The first link will take you to a field report which describes the study site, along with photos.    
+The second link will take you to a page which shows results of terrain analyses done using the LIDAR data, including a fly-through video produced in ArcGIS Pro, and both static and dynamic maps.  
+[Explore My Site](https://zmerkin.github.io/rrg/Explore/)    
+
 ### Project Components    
 
 #### Waterfalls

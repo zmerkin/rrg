@@ -166,15 +166,12 @@
 		<p class="p2"> An interesting feature on the trail along Copperas Creek,
 			photo by Zina Merkin
 		</p>
-		<p>
-				<img src="https://uky-gis.github.io/maps/us-arches/photos/don_juan_garden.jpg" alt="Don Juan Garden" width="100%">
-				<div class="linkbox">Don Juan's Garden photograph by UK Geography</div>
-				<a href="https://uky-gis.github.io/maps/us-arches/full">Link to map of US named arches (data from US GNIS)</a>
-	   
-		</p>
+		
 		<div class="row">
 			<div class="first-column">
-				<p>Here is the reference map I used when going to visit the site. You can download the <a href="https://zmerkin.github.io/rrg/basemap/rrg.pdf">Geospatial PDF</a> here
+			<h3>The Site Visit</h3>    
+
+				<p>Before going to the site, I built a simple base map in ArcGIS Pro, exporting it as a Geospatial PDF file. This was loaded into an online application, Avenza maps. This can be accessed on a smart phone and was used to take a location point when I arrived at my chosen location, Copperas Creek Falls.This is an image of the map -- you can download the <a href="https://zmerkin.github.io/rrg/basemap/rrg.pdf">Geospatial PDF</a> here
 
 				<img src="../basemap/rrg.png" alt="Picture of geospatial pdf" width="80%">
 							
@@ -193,6 +190,12 @@
 				<a href="https://www.linkedin.com/in/zrm4landscape">zrm4landscape</a> </li>
 			
 		</ul>
+		<p>
+				<img src="https://uky-gis.github.io/maps/us-arches/photos/don_juan_garden.jpg" alt="Don Juan Garden" width="100%">
+				<div class="linkbox">Don Juan's Garden photograph by UK Geography</div>
+				<a href="https://uky-gis.github.io/maps/us-arches/full">Link to map of US named arches (data from US GNIS)</a>
+	   
+		</p>
 	</section>
 
 	<!-- Load the library that provides interactive map functionality -->
@@ -205,7 +208,7 @@
 		// Define a variable that centers the intial view and zoom level. 
 		var options = {
 			center: [37.821092, -83.575650], // lat, long values of unofficial trail start
-			zoom: 14 // Integer value. Higher value greater the scale.
+			zoom: 16 // Integer value. Higher value greater the scale.
 		}
 
 		// write a custom message for the Leaflet tooltip

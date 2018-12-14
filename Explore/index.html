@@ -70,6 +70,12 @@
 			line-height: 1.3em;
 			font-style: italic
 		}
+
+		.p3 {
+			font-size: 1.1em;
+			line-height: 1.3em;
+			font-weight: bold
+		}
 		a {
 			color: #ad3232;
 			text-decoration: none;
@@ -106,7 +112,7 @@
 		hr {
 			border: 0px;
 			border-bottom: 1px solid #bbbbbb;
-			padding-top: 20px;
+			padding-top: 15px;
 		}
 
 		#map {
@@ -166,20 +172,33 @@
 		<p class="p2"> An interesting feature on the trail along Copperas Creek,
 			photo by Zina Merkin
 		</p>
-		
-		<div class="row">
-			<div class="first-column">
+				
 			<h3>The Site Visit</h3>    
 
-				<p>Before going to the site, I built a simple base map in ArcGIS Pro, exporting it as a Geospatial PDF file. This was loaded into an online application, Avenza maps. This can be accessed on a smart phone and was used to take a location point when I arrived at my chosen location, Copperas Creek Falls.This is an image of the map -- you can download the <a href="https://zmerkin.github.io/rrg/basemap/rrg.pdf">Geospatial PDF</a> here
-
-				<img src="../basemap/rrg.png" alt="Picture of geospatial pdf" width="80%">
-							
+				<p>Before going to the site, I built a simple base map in ArcGIS Pro, exporting it as a Geospatial PDF file. This was loaded into an online application, Avenza maps. This can be accessed on a smart phone and was used to take a location point when I arrived at my chosen location, Copperas Creek Falls.This is an image of the map -- you can download the <a href="https://zmerkin.github.io/rrg/basemap/rrg.pdf">Geospatial PDF</a> here.</p>
+				
+				<img src="../basemap/rrg.png" alt="Picture of geospatial pdf" width="80%">    
+			<p>    
+			<div class="row">
+				<div class="first-column">
+				<hr>
+			<p class="p3">The waterfall in pictures</p>	
+			<p>Approaching the falls on Copperas Creek is deceptive -- you can hear it before you can see it. The creek turns to the right while the trail goes to the left, up a small rise. There in the distance, through the rhododendron leaves, you can see the falls pouring over the rocky edge, but you can't see how tall it is.  
+				<img class="max-image-width" src="..\photos\DSC01106.JPG">
+				<p class="p2">First approach to Copperas Falls, a glimpse</p>
+					
 				<p>Indian Fort Mountain is located in Berea, Kentucky and is managed by <a href="https://www.berea.edu/forestry/indian-fort-mountain-trail/">Berea College's College of Forestry</a> and is part of the larger Berea College Forest, one of oldest private forests in Kentucky. It was established in 1898. The trails are open to the public foot traffic but no camping is allowed.</p>
 				<p>Some notable destinations include the Indian Fort Lookout, East Pinnacle, Buzzard's Roost, Basin Mountain, and West Pinnacle. Elevation relief on the trail network is 700 vertical feet. 7.6 miles of trail exist here. </p>
 				<p>
+			</div>
+			<div class="column">    
+				
+			<p>Coming a little closer, its height is more apparent.</p>
+				<img class="max-image-width" src="..\photos\DSC01107.JPG">    
+				<p class="p2">Most of the falls is in view</p>
+			</div>
 		
-		
+
 		<!-- More info about you -->
 		<hr>
 		<h3>More about Me!</h3>
@@ -208,7 +227,7 @@
 		// Define a variable that centers the intial view and zoom level. 
 		var options = {
 			center: [37.821092, -83.575650], // lat, long values of unofficial trail start
-			zoom: 16 // Integer value. Higher value greater the scale.
+			zoom: 12 // Integer value. Higher value greater the scale.
 		}
 
 		// write a custom message for the Leaflet tooltip

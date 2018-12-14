@@ -6,7 +6,9 @@
 
 (created in ArcGIS Pro)
 
-### Summary information 
+### Introduction 
+
+This is a project for University of Kentucky, Geography 409, fall 2018. Using ArcGIS Pro, Python programming, Markdown language, and Visual Studio Code as tools, our task was to explore one or more geologic features in Red River Gorge, and document our analyses. A variety of data was accessed and analyzed; we made use in particular of the high quality LIDAR data made available through the Commonwealth of Kentucky's Elevation Data & Aerial Photography Program [KyFromAbove](http://kyfromabove.ky.gov/)    
 
 #### Natural Features
 
@@ -22,8 +24,6 @@ The Red River Gorge has both archaeological and historical features within it. R
 #### Waterfalls
 
 "Falls" features were extracted from a text file downloaded from the Domestic and Antarctic Names (State and Topical Gazetteer) files published by the United States Board on Geographic Names. (geonames.usgs.gov) , using Python code. Data accessed October, 2018. Geographic points were created from latitude and longitude fields in the text file. Elevation data was extracted from lidar point cloud data maintained by Kentucky's Elevation Data & Aerial Photography Program(KyFromAbove)
-
-*(Source: three paragraphs developed in labs 1, 5, and 9)*
 
 
 ### Bird's-eye view animation

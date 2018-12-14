@@ -6,7 +6,11 @@
     - [Introduction](#Introduction)
         - [Natural Features](#Natural-Features)
         - [Heritage Features](#Heritage-Features)
-    - [Building a web page](#building-a-web-page)
+    - [Explore Copperas Creek Falls](#Explore-Copperas-Creek-Falls)
+    - [Project Components](#Project-Components)
+        - [ArcGIS Pro Work](#ArcGIS-Pro-Work)
+        - [Python Programming](#Python-Programming)
+    - [Data Sources](Data-Sources)
 
 ### Introduction 
 
@@ -32,6 +36,7 @@ The Red River Gorge has both archaeological and historical features within it. R
 *Map of Gladie Historic Site*  
 Source: Daniel Boone National Forest [website](https://www.fs.usda.gov/detail/dbnf/specialplaces/?cid=fsbdev3_032543)
 
+### Project Components    
 
 #### Waterfalls
 

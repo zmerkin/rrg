@@ -1,5 +1,6 @@
 ## A project that explores Copperas Creek Waterfall
-### in Red River Gorge National Geological Area    
+### in Red River Gorge National Geological Area
+### Created by Zina Merkin for Geography 409, Fall 2018    
 
 - [Table of Contents](#table-of-contents)
     - [Introduction](#Introduction)
@@ -45,19 +46,22 @@ The second link will take you to a page which shows results of terrain analyses 
 
 ### Project Components   
 #### ArcGIS Pro Work
-ArcGIS Pro software was used both to create maps and to process several kinds of data. Digital Elevation Models were used to produce hillshade and contour derivative. LIDAR point cloud ground returns also were processed into more detailed elevation products. Other point cloud returns were colored by underlying aerial photography images and used in the 3-D scene to simulate the forest. Other geoprocessing tools clipped data sets to the area of interest, and created derivative elevation change rasters which identified probable cliff areas. Text files with latitude and longitude fieldss were used to generate points for waterfall locations.
+ArcGIS Pro software was used both to create maps and to process several kinds of data. Digital Elevation Models were used to produce hillshade and contour derivatives. LIDAR point cloud ground returns also were processed into more detailed elevation products. Other point cloud returns were colored by underlying aerial photography images and used in the 3-D scene to simulate the forest. Other geoprocessing tools clipped data sets to the area of interest, and created derivative elevation change rasters which identified probable cliff areas. Text files with latitude and longitude fields were used to generate points for waterfall locations.    
+
+Maps produced included a location map, a poster describing the elevation analyses, and an animation of a 3-D Scene which showed the subject feature from many angles.
 
 #### Python Programming
 Python coding in Jupyter Notebook was used to automate the clipping operations, as well as to generate hillshades at different azimuth angles. It was also used to extract rows of data, from a very large text file of national named features, for which the feature type was "Falls" and the state was "KY."    
 
+#### Markdown and HTML
+Project work was kept in GitHub repositories, and I used Markdown language to create "readme" files for the repositories, one of which is the document you are reading now.    
+
+Index.html files were created from a provided template, which was customized with different colors, fonts, and layout tags, and filled with content related to the project.   
+
+#### Mapbox
+Mapbox was used to display some of the geographic products created, including contours, point locations of geographic features, and interpreted cliff areas.
+
 ### Data Sources
 
 
-* [Cliffs over 40 feet](Elevation/CopperasCreekCliffs.jpg)
-
-* [Welcome to the Red River Gorge](Explore/index.html)
-* [Explore the falls](copperasc-creek-falls) *(lab 8)*
-The lab 8 [Explore the falls](copperasc-creek-falls) *(lab 8)* web page needs to have the following assets added:
-
-* [Cliffs over 40 feet] map(Elevation/CopperasCreekCliffs.jpg) *(lab 7)*
 

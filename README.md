@@ -46,7 +46,7 @@ The second link will take you to a page which shows results of terrain analyses 
 
 ### Project Components   
 #### ArcGIS Pro
- 
+ArcGIS Pro software was used both to create maps and to process several kinds of data. Digital Elevation Models were used to produce hillshade and contour derivative. LIDAR point cloud ground returns also were processed into more detailed elevation products. Other point cloud returns were colored by underlying aerial photography images and used in the 3-D scene to simulate the forest. Other geoprocessing tools clipped data sets to the area of interest, and created derivative elevation change rasters which identified probable cliff areas. Text files with latitude and longitude fieldss were used to generate points for waterfall locations.
 
 #### Waterfalls
 

@@ -1,4 +1,3 @@
-
 ## A project that explores Copperas Creek Waterfall
 ### in Red River Gorge National Geological Area    
 
@@ -62,13 +61,7 @@ Python coding in Jupyter Notebook was used to automate the clipping operations, 
 * [Explore the falls](copperasc-creek-falls) *(lab 8)*
 
 
-## Final project 
-
-For a super-polished version of final project, you should add content to your two web pages.
-
-
 The lab 8 [Explore the falls](copperasc-creek-falls) *(lab 8)* web page needs to have the following assets added:
 
-* [45-second video](https://www.youtube.com/embed/s5qwNqC6_UA) (lab 7)*
 * [Cliffs over 40 feet] map(Elevation/CopperasCreekCliffs.jpg) *(lab 7)*
 

@@ -67,45 +67,14 @@ The second link will take you to a page which shows results of terrain analyses 
 * [Welcome to the Red River Gorge](../index.html) *(lab 1)*
 * [Explore the falls](copperasc-creek-falls) *(lab 8)*
 
-### Photographs
-
-![caption](photos/th_DSC01106.jpg)     
-caption
-
-![caption](photos/th_DSC01107.jpg)     
-caption
-
-![caption](photos/th_DSC01116.jpg)     
-caption
-
-![caption](photos/th_DSC01126.jpg)     
-caption
-
-![caption](photos/th_DSC01134.jpg)     
-caption
-
-![caption](photos/th_DSC01142.jpg)     
-caption
-
-![caption](photos/th_DSC01149.jpg)     
-caption
-
-*(Source: five photographs made in lab 5)*
 
 ## Final project 
 
 For a super-polished version of final project, you should add content to your two web pages.
-
-The lab 1 [Welcome to the Red River Gorge](../index.html) web page needs to have the following assets added:
-
-* [Base map of popular Red River Gorge arches](basemap/rrg.pdf) *(lab 5)*
-* A link to the [Explore the falls](copperasc-creek-falls) *(lab 8)* web page
 
 
 The lab 8 [Explore the falls](copperasc-creek-falls) *(lab 8)* web page needs to have the following assets added:
 
 * [45-second video](https://www.youtube.com/embed/s5qwNqC6_UA) (lab 7)*
 * [Cliffs over 40 feet] map(Elevation/CopperasCreekCliffs.jpg) *(lab 7)*
-* Photographs *(lab 5)*
-* Summary information/narrative about falls that includes measures of landform, e.g., height, width, etc. 
 

@@ -45,23 +45,15 @@ The second link will take you to a page which shows results of terrain analyses 
 [Dynamic Map and Terrain Analyses](https://zmerkin.github.io/rrg/copperas_terrain)   
 
 ### Project Components   
-#### ArcGIS Pro
+#### ArcGIS Pro Work
 ArcGIS Pro software was used both to create maps and to process several kinds of data. Digital Elevation Models were used to produce hillshade and contour derivative. LIDAR point cloud ground returns also were processed into more detailed elevation products. Other point cloud returns were colored by underlying aerial photography images and used in the 3-D scene to simulate the forest. Other geoprocessing tools clipped data sets to the area of interest, and created derivative elevation change rasters which identified probable cliff areas. Text files with latitude and longitude fieldss were used to generate points for waterfall locations.
 
-#### Waterfalls
+#### Python Programming
+Python coding in Jupyter Notebook was used to automate the clipping operations, as well as to generate hillshades at different azimuth angles. It was also used to extract rows of data, from a very large text file of national named features, for which the feature type was "Falls" and the state was "KY."    
 
-"Falls" features were extracted from a text file downloaded from the Domestic and Antarctic Names (State and Topical Gazetteer) files published by the United States Board on Geographic Names. (geonames.usgs.gov) , using Python code. Data accessed October, 2018. Geographic points were created from latitude and longitude fields in the text file. Elevation data was extracted from lidar point cloud data maintained by Kentucky's Elevation Data & Aerial Photography Program(KyFromAbove)
+### Data Sources
 
 
-### Bird's-eye view animation
-
-* [45-second video](https://www.youtube.com/embed/s5qwNqC6_UA)
-
-*(Source: one video made in lab 7)*
-
-### Maps 
-
-* [Base map of popular Red River Gorge arches](basemap/rrg.pdf) *(lab 5)*
 * [Cliffs over 40 feet](Elevation/CopperasCreekCliffs.jpg) *(lab 7)*
 
 ### Web pages 

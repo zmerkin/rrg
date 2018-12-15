@@ -55,9 +55,7 @@ Python coding in Jupyter Notebook was used to automate the clipping operations, 
 
 * [Cliffs over 40 feet](Elevation/CopperasCreekCliffs.jpg) *(lab 7)*
 
-### Web pages 
-
-* [Welcome to the Red River Gorge](../index.html) *(lab 1)*
+* [Welcome to the Red River Gorge](Explore/index.html)
 * [Explore the falls](copperasc-creek-falls) *(lab 8)*
 
 

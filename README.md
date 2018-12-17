@@ -61,7 +61,9 @@ Index.html files were created from a provided template, which was customized wit
 #### Mapbox
 Mapbox was used to display some of the geographic products created, including contours, point locations of geographic features, and interpreted cliff areas.
 
-### Data Sources
-
+### Selected Data Sources
+- Grid for LIDAR data location and LIDAR point cloud data from [Kentucky From Above](http://kyfromabove.ky.gov/)
+- Aerial imagery from [KY Statewide 2' - 2016](https://kygeoportal.ky.gov/geoportal/catalog/search/resource/details.page?uuid=%7BC2BB029C-06C2-4A15-88BB-FBE36CD6F5EB%7D)
+- Stream data from Kentucky Geoportal [extract of National Hydrography Dataset](https://kygeoportal.ky.gov/geoportal/catalog/search/resource/details.page?uuid=%7BAAB3592A-CCD4-4DF3-A088-3B678D69B902%7D)
 
 

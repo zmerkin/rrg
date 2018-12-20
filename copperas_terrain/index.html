@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset=utf-8 />
     <title>Copperas Creek Falls, and Some Other Kentucky Waterfalls</title>
@@ -65,21 +66,21 @@
         }
 
         p {
-			font-size: 1em;
-			line-height: 1.4em;
-		}
+            font-size: 1em;
+            line-height: 1.4em;
+        }
 
-		.p2 {
-			font-size: .9em;
-			line-height: 1.1em;
-			font-style: italic
-		}
+        .p2 {
+            font-size: .9em;
+            line-height: 1.1em;
+            font-style: italic
+        }
 
-		.p3 {
-			font-size: 1.1em;
-			line-height: 1.3em;
-			font-weight: bold
-		}
+        .p3 {
+            font-size: 1.1em;
+            line-height: 1.3em;
+            font-weight: bold
+        }
 
         a {
             color: #15397f;
@@ -117,7 +118,7 @@
             margin: 3px 0 20px 0;
             display: block;
             font-weight: 300;
-            font-style:italic
+            font-style: italic
         }
 
         hr {
@@ -163,16 +164,49 @@
                 width: 100%;
             }
         }
+
+        .box-legend {
+            display: inline-block;
+            padding: 6px;
+            margin: 4px 2px 0 4px;
+
+        }
+
+        .purple {
+            border: 1px solid #81103B;
+            background-color: rgba(129, 16, 59, 0.5);
+        }
+
+        .red {
+            border: 1px solid #E13E20;
+            background-color: rgba(255, 62, 32, 0.5);
+        }
+
+        .orange {
+            border:1px solid #FAA233;
+            background-color: rgba(250, 162, 51, 0.5);
+        }
+
+        .yellow {
+            border: 1px solid yellow;
+            background-color: rgba(255, 255, 0, 0.5);
+        }
+
+        
+
     </style>
 </head>
 
 <body>
     <iframe src="map.html" width="100%" height="440px"></iframe>
-   
+
     <section>
-        <p class="p2">cliff heights in feet, orange-purple: 40-50,  >50-80,  >80-120,  >120-220</p>
+        <div class="linkbox">
+            Height of cliffs in feet: <span class="box-legend yellow"></span>40-50 <span class="box-legend orange"></span>>50-80 <span class="box-legend red"></span>>80-120 <span class="box-legend purple"></span> >120-220 
+        </div>
+        <!-- <p class="p2">cliff heights in feet, orange-purple: 40-50, >50-80, >80-120, >120-220</p> -->
         <a href='map.html' class="linkbox">Full-screen version</a>
-    <br>
+        <br>
         <img src="wfall_6-01.svg" class="svg-title">
         <h1>Copperas Creek Falls, and other waterfalls of Kentucky</h1>
         <h2>University of Kentucky, Geography 409, Fall 2018</h2>
@@ -180,54 +214,65 @@
         <div class="row">
             <div class="first-column">
                 <p>
-                    The map above was created from the Mapbox template style "Terrain." A tileset was created by uploading a zipped shapefile of 10 foot contours generated in ArcPro, clipped to a 2500 foot radius of Copperas Creek Falls, and reprojected to the Mapbox web mercator projection. These were styled so that the 100 foot index contours are bolder, and have elevation labels. The elevation data was derived from lidar point cloud data maintained by Kentucky's Elevation Data & Aerial Photography Program (<a href="http://kyfromabove.ky.gov">KyFromAbove</a>).
+                    The map above was created from the Mapbox template style "Terrain." A tileset was created by
+                    uploading a zipped shapefile of 10 foot contours generated in ArcPro, clipped to a 2500 foot radius
+                    of Copperas Creek Falls, and reprojected to the Mapbox web mercator projection. These were styled
+                    so that the 100 foot index contours are bolder, and have elevation labels. The elevation data was
+                    derived from lidar point cloud data maintained by Kentucky's Elevation Data & Aerial Photography
+                    Program (<a href="http://kyfromabove.ky.gov">KyFromAbove</a>).
                     <br>
-                    "Falls" features were extracted from a text file downloaded (October 2018) from the Domestic and Antarctic Names (State and Topical Gazetteer) published by
-                    the United States Board on Geographic Names (<a href="https://geonames.usgs.gov/domestic">geonames.usgs.gov</a>), and saved to a .csv file, using Python code.
-                    Geographic points were created from latitude and longitude fields in the text file. 
+                    "Falls" features were extracted from a text file downloaded (October 2018) from the Domestic and
+                    Antarctic Names (State and Topical Gazetteer) published by
+                    the United States Board on Geographic Names (<a href="https://geonames.usgs.gov/domestic">geonames.usgs.gov</a>),
+                    and saved to a .csv file, using Python code.
+                    Geographic points were created from latitude and longitude fields in the text file.
                 </p>
                 <h3>Tools used in this project</h3>
                 <ul>
-                    <li>ArcGIS Pro was used to generate points for falls features, process lidar data and produce elevation derivatives.</li>
+                    <li>ArcGIS Pro was used to generate points for falls features, process lidar data and produce
+                        elevation derivatives.</li>
                     <li>Adobe Illustrator was used to produce the waterfall icon.</li>
                     <li>Data is shown on Mapbox web map with geolocation services enabled. </li>
 
                 </ul>
 
 
-                
+
             </div>
             <div class="column">
                 <br>
                 <img class="max-image-width" src="https://c1.staticflickr.com/5/4876/46249052171_3e0783de6a_b.jpg"
                     title="Copperas Creek Falls">
-                    <p class="p2">The lip of Copperas Creek Falls --- photo by Zina Merkin</p>
+                <p class="p2">The lip of Copperas Creek Falls --- photo by Zina Merkin</p>
                 <br>
-                <img src="../Elevation/CopFallsCliffLayout.jpg" class ="max-image-width" alt="Copperas Falls and cliff areas nearby">
-                <p class="p2"><a href="../Elevation/CopFallsCliffLayout.jpg" Analysis> Analysis of Cliffs in the area of Copperas Creek Falls</p>
-                
-                    <br>
-            
+                <img src="../Elevation/CopFallsCliffLayout.jpg" class="max-image-width" alt="Copperas Falls and cliff areas nearby">
+                <p class="p2"><a href="../Elevation/CopFallsCliffLayout.jpg" Analysis> Analysis of Cliffs in the area
+                        of Copperas Creek Falls</p>
+
+                <br>
+
             </div>
-            <iframe src="../read_select_text_example.html" width="100%" height="200px"></iframe>
-                <p class="p2">Python code for extracting waterfall names and locations from National dataset</p>
+            <iframe src="../read_select_text_example.html" width="100%" height="300px"></iframe>
+            <p class="p2">Python code for extracting waterfall names and locations from National dataset</p>
         </div>
         <hr>
         <h3>Project assets</h3>
         <ul>
             <li><a href="wfall_6-01.svg" download>link to download waterfall icon</a></li>
-        
+
         </ul>
         </p>
 
 
         <h3>Bird's-eye view animation</h3>
-        <a href="https://www.youtube.com/embed/s5qwNqC6_UA">Click to "fly" to Copperas Creek Falls</a> 
-            <hr>
+        <iframe width="100%" height="444" src="https://www.youtube.com/embed/s5qwNqC6_UA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <a href="https://www.youtube.com/embed/s5qwNqC6_UA">Click to "fly" to Copperas Creek Falls</a>
+        <hr>
         <!-- <h4><a href="https://uky-gis.github.io">UKy GIS and Mapping</a></h4> -->
         <a href="https://uky-gis.github.io">
             <img src="logo-color-400px.png" alt="University of Kentucky Geography"></a>
-            
+
     </section>
 </body>
+
 </html>
